@@ -5,11 +5,11 @@ var gamingPlatform;
         // Feel free to change to your own Firebase URL :)
         // Initialize Firebase
         var config = {
-            apiKey: "AIzaSyDvbUblHfA5eJe5sK1Xy-xC_tfV4y4PgQE",
-            authDomain: "signalling-d073b.firebaseapp.com",
-            databaseURL: "https://signalling-d073b.firebaseio.com",
-            storageBucket: "signalling-d073b.appspot.com",
-            messagingSenderId: "308144322392"
+            apiKey: "AIzaSyAW_1iLUy3CnHu_KWC6j0jjR638JzXtKRU",
+            authDomain: "friendlychat-5ffd5.firebaseapp.com",
+            databaseURL: "https://friendlychat-5ffd5.firebaseio.com",
+            storageBucket: "friendlychat-5ffd5.appspot.com",
+            messagingSenderId: "606250153826"
         };
         firebase.initializeApp(config);
         main.matches = [];
@@ -223,8 +223,7 @@ var gamingPlatform;
                 gamingPlatform.$sce = _sce; // It's module-specific, or else I get: Error: [$sce:unsafe] Attempting to use an unsafe value in a safe context.
                 gamingPlatform.log.alwaysLog("Angular loaded!");
                 gamingPlatform.$rootScope['main'] = main;
-            }
-        ]);
+            }]);
     })(main = gamingPlatform.main || (gamingPlatform.main = {}));
 })(gamingPlatform || (gamingPlatform = {}));
 //# sourceMappingURL=main.js.map

@@ -61,11 +61,11 @@ export module main {
   // TODO: change to your own Firebase URL! To avoid messing up the data for other students.
   // Initialize Firebase
   var config = {
-    apiKey: "AIzaSyDvbUblHfA5eJe5sK1Xy-xC_tfV4y4PgQE",
-    authDomain: "signalling-d073b.firebaseapp.com",
-    databaseURL: "https://signalling-d073b.firebaseio.com",
-    storageBucket: "signalling-d073b.appspot.com",
-    messagingSenderId: "308144322392"
+    apiKey: "AIzaSyAW_1iLUy3CnHu_KWC6j0jjR638JzXtKRU",
+    authDomain: "friendlychat-5ffd5.firebaseapp.com",
+    databaseURL: "https://friendlychat-5ffd5.firebaseio.com",
+    storageBucket: "friendlychat-5ffd5.appspot.com",
+    messagingSenderId: "606250153826"
   };
   firebase.initializeApp(config);
   export let matches: ICommunityMatch[] = [];
